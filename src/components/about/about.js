@@ -21,17 +21,7 @@ export default class About extends Component {
 
             </p>
             <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>XXXXX</span><br />
-                  <span>1600 Amphitheatre Parkway<br />
-                    Mountain View, CA 94043 US
-                  </span><br />
-                  <span>(123)456-7890</span><br />
-                  <span>anyone@website.com</span>
-                </p>
-              </div>
+              
               <div className="columns download">
                 <p>
                   <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>

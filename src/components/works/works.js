@@ -28,11 +28,11 @@ export default class Work extends Component{
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
                         <a href="#modal-02" title>
-                          <img alt="" src="images/portfolio/console.jpg" />
+                          <img alt="" src="images/portfolio/PS.png" />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
                               <h5>Console</h5>
-                              <p>Web Development</p>
+                              <p>Web/App Development</p>
                             </div>
                           </div>
                           <div className="link-icon"><i className="icon-plus" /></div>
@@ -67,62 +67,10 @@ export default class Work extends Component{
                         </a>
                       </div>
                     </div> {/* item end */}
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-05" title>
-                          <img alt="" src="images/portfolio/farmerboy.jpg" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-                            </div>
-                          </div>
-                          <div className="link-icon"><i className="icon-plus" /></div>
-                        </a>
-                      </div>
-                    </div> {/* item end */}
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-06" title>
-                          <img alt="" src="images/portfolio/girl.jpg" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>Girl</h5>
-                              <p>Photography</p>
-                            </div>
-                          </div>
-                          <div className="link-icon"><i className="icon-plus" /></div>
-                        </a>
-                      </div>
-                    </div> {/* item end */}
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-07" title>
-                          <img alt="" src="images/portfolio/origami.jpg" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>Origami</h5>
-                              <p>Illustrration</p>
-                            </div>
-                          </div>
-                          <div className="link-icon"><i className="icon-plus" /></div>
-                        </a>
-                      </div>
-                    </div> {/* item end */}
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-08" title>
-                          <img alt="" src="images/portfolio/retrocam.jpg" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>Retrocam</h5>
-                              <p>Web Development</p>
-                            </div>
-                          </div>
-                          <div className="link-icon"><i className="icon-plus" /></div>
-                        </a>
-                      </div>
-                    </div>  {/* item end */}
+                    
+                   
+                    
+                   
                   </div> {/* portfolio-wrapper end */}
                 </div> {/* twelve columns end */}
                 {/* Modal Popup
@@ -142,9 +90,9 @@ export default class Work extends Component{
                 <div id="modal-02" className="popup-modal mfp-hide">
                   <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
                   <div className="description-box">
-                    <h4>Console</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+                    <h4>PhaeShift</h4>
+                    <p>Application for university's annual tech symposium,built on React Native. </p>
+                    <span className="categories"><i className="fa fa-tag" />Tech, Web Development</span>
                   </div>
                   <div className="link-box">
                     <a href="http://www.behance.net">Details</a>
