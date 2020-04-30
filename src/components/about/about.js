@@ -10,12 +10,15 @@ export default class About extends Component {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-              sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            <p>Computers have always been my thing.Initially, I started out playing with blogs,changing templates,writing and publishing articles.
+                  No sooner, my interest grew more towards coding and stuff,and since then I've never turned back.
+                  I like turning ideas into reality, and make a global impact for a better future.
+                  Hit me up,if you think you've got an idea.<br/>
+                  <i>"Poor people talk about people,average people talk events,and great people talk ideas."</i>
+                  <br/>
+                  If not at work, I love to travel and see new places.
+
+
             </p>
             <div className="row">
               <div className="columns contact-details">

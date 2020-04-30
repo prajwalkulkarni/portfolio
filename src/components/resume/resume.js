@@ -2,7 +2,17 @@ import React,{Component} from 'react';
 
 export default class Resume extends Component{
 
+  constructor(props){
+    super(props)
+
+    this.state={
+      pts:['Sql','Networking','User authentication','Multiscreen apps','JSON parsing','Debugging','Material design']
+    }
+  }
+
     render(){
+
+    const listItems = this.state.pts.map((arg)=> <li type="square" align="left">{arg}</li>)
         return(
             <section id="resume">
         {/* Education
@@ -14,28 +24,15 @@ export default class Resume extends Component{
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>University of Life</h3>
-                <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
+                <h3>Major|Computer Science</h3>
+                <p className="info">Android|Full-Stack dev <span>•</span> <em className="date">April 2018</em></p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  19 y/o undergrad doing major in Computer Science.
+                  I've made a couple of apps(Android) and functional websites.
                 </p>
               </div>
             </div> {/* item end */}
-            <div className="row item">
-              <div className="twelve columns">
-                <h3>School of Cool Designers</h3>
-                <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
-                <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                </p>
-              </div>
-            </div> {/* item end */}
+           
           </div> {/* main-col end */}
         </div> {/* End Education */}
         {/* Work
@@ -47,25 +44,26 @@ export default class Resume extends Component{
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Awesome Design Studio</h3>
-                <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                <h3>Android Developer</h3>
+                <p className="info">Experience:2-3years <span>•</span> <em className="date">March 2017 - Present</em></p>
+                <p align="left">
+                  I've worked on a wide range of components,and have a good grip over concepts such as:
+                  <ul type="square">
+                    {listItems}
+                  </ul>
+
+                  You could contact me to get your work done.
                 </p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Super Cool Studio</h3>
-                <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+                <h3>Web Development</h3>
+                <p className="info">Full stack web development <span>•</span> <em className="date">Dec 2019-Present</em></p>
                 <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  Fairly recently, i've been experimenting with full stack web development(frontend+backend),
+                  Working only on specific frameworks and still not a master.
+                  
                 </p>
               </div>
             </div> {/* item end */}
@@ -78,19 +76,15 @@ export default class Resume extends Component{
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
-            </p>
+            
             <div className="bars">
               <ul className="skills">
-                <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
+                <li><span className="bar-expand java" /><em>Java</em></li>
+                <li><span className="bar-expand python" /><em>Python</em></li>
+                <li><span className="bar-expand javascript" /><em>JavaScript</em></li>
                 <li><span className="bar-expand css" /><em>CSS</em></li>
                 <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+                <li><span className="bar-expand swift" /><em>Swift</em></li>
               </ul>
             </div>{/* end skill-bars */}
           </div> {/* main-col end */}
